@@ -4,7 +4,7 @@ from google.cloud import firestore
 from datetime import datetime, timedelta
 
 # Initialize Firestore
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "assignment2-362c8-firebase-adminsdk-3ajwf-42b1cba715.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "assignment2-362c8-firebase-adminsdk-3ajwf-22fc1d4d8c.json"
 db = firestore.Client()
 
 # Password for Mr. Johnson
